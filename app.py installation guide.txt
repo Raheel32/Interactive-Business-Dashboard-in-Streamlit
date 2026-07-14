@@ -1,0 +1,34 @@
+How to run app.py?
+
+Here's how to run it in VS Code:
+1. Open the project folder in VS Code
+
+File → Open Folder → select your superstore_dashboard folder (the one with app.py, data/, notebook/, etc.)
+
+2. Open the integrated terminal
+
+Menu: Terminal → New Terminal (or shortcut Ctrl+` on Windows/Linux, Cmd+` on Mac)
+It should open already pointed at your project folder. If not, cd into it:
+
+bashcd path/to/superstore_dashboard
+3. (Recommended) Create a virtual environment
+bashpython -m venv venv
+Activate it:
+
+Windows: venv\Scripts\activate
+Mac/Linux: source venv/bin/activate
+
+You should see (venv) appear at the start of your terminal prompt.
+4. Install the dependencies
+bashpip install -r requirements.txt
+5. Run the app
+bashstreamlit run app.py
+Streamlit will start a local server and print something like:
+Local URL: http://localhost:8501
+It should also auto-open that URL in your default browser. If it doesn't, just click the link in the terminal or paste it into your browser manually.
+To stop the app: click back in the terminal and press Ctrl+C.
+A couple of things to watch for:
+
+Make sure you're running the command from inside the superstore_dashboard folder itself (where app.py lives) — otherwise it won't find data/Global_Superstore_clean.csv.
+If python isn't recognized, try python3 instead (common on Mac/Linux).
+If pip throws a permissions error, try pip install --user -r requirements.txt, or just make sure the venv is activated first.
