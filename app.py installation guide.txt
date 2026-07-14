@@ -4,6 +4,7 @@ Here's how to run it in VS Code:
 1. Open the project folder in VS Code
 
 File → Open Folder → select your superstore_dashboard folder (the one with app.py, data/, notebook/, etc.)
+("C:\Users\i.Tech Computers\Desktop\DeveloperHub_Internship\Interactive Business Dashboard in Streamlit\files>")
 
 2. Open the integrated terminal
 
