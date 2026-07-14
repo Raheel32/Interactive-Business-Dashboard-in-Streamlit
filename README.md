@@ -7,6 +7,8 @@ Task of the Data Analytics / BI mini-project series: an interactive Streamlit
 dashboard for analyzing **sales**, **profit**, and **segment-wise performance** on
 The Global Superstore dataset.
 
+- <img width="1680" height="2725" alt="dashboard image" src="https://github.com/user-attachments/assets/2d931e7d-35a5-4193-a61a-209d552ac973" />
+
 ## 🎯 Task Objective
 
 Clean and prepare the Global Superstore dataset, explore it in a Jupyter notebook,
@@ -98,3 +100,4 @@ the same logic, so it also works as a standalone script.
 - Exploratory Data Analysis & data storytelling
 - Interactive filtering with Streamlit
 - Visual KPI analysis (Plotly / Matplotlib / Seaborn)
+
